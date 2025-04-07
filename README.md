@@ -900,13 +900,13 @@ Qwen2.5-Omni supports the ability to change the voice of the output audio. The `
 
 | Voice Type | Gender | Description                                                                  |
 | ---------- | ------ | ---------------------------------------------------------------------------- |
-| Chelsie    | Female | A honeyed, velvety voice that carries a gentle warmth and luminous clarity.  |
+| Cherry     | Female | A honeyed, velvety voice that carries a gentle warmth and luminous clarity.  |
 | Ethan      | Male   | A bright, upbeat voice with infectious energy and a warm, approachable vibe. |
 
-Users can use the `spk` parameter of `generate` function to specify the voice type. By defalut, if `spk` is not specified, the default voice type is `Chelsie`.
+Users can use the `spk` parameter of `generate` function to specify the voice type. By default, if `spk` is not specified, the default voice type is `Cherry`.
 
 ```python
-text_ids, audio = model.generate(**inputs, spk="Chelsie")
+text_ids, audio = model.generate(**inputs, spk="Cherry")
 ```
 
 ```python
